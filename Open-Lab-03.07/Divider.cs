@@ -6,7 +6,9 @@ namespace Open_Lab_03._07
     {
         public bool EqualSlices(int total, int people, int each)
         {
-            throw new NotImplementedException();
+            int pocetludi = people * each;
+            bool vypocet = pocetludi <= total;
+            return vypocet;
         }
     }
 }
